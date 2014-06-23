@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8568BEA31957C7EB00DFFF4F /* PanScrollImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8568BEA21957C7EB00DFFF4F /* PanScrollImageView.m */; };
 		A87FEEDA18B0575300E53BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEED918B0575300E53BD7 /* Foundation.framework */; };
 		A87FEEDC18B0575300E53BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEEDB18B0575300E53BD7 /* CoreGraphics.framework */; };
 		A87FEEDE18B0575300E53BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87FEEDD18B0575300E53BD7 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8568BEA11957C7EB00DFFF4F /* PanScrollImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanScrollImageView.h; sourceTree = "<group>"; };
+		8568BEA21957C7EB00DFFF4F /* PanScrollImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanScrollImageView.m; sourceTree = "<group>"; };
 		A87FEED618B0575300E53BD7 /* SubjectiveCImagePan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubjectiveCImagePan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87FEED918B0575300E53BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A87FEEDB18B0575300E53BD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 				A87FEF0E18B057B400E53BD7 /* SCRootViewController.m */,
 				A87FEF0818B0576100E53BD7 /* SCImagePanViewController.h */,
 				A87FEF0918B0576100E53BD7 /* SCImagePanViewController.m */,
+				8568BEA11957C7EB00DFFF4F /* PanScrollImageView.h */,
+				8568BEA21957C7EB00DFFF4F /* PanScrollImageView.m */,
 				A87FEF1218B06A5300E53BD7 /* SCImagePanScrollBarView.h */,
 				A87FEF1318B06A5300E53BD7 /* SCImagePanScrollBarView.m */,
 				A87FEEEB18B0575300E53BD7 /* Images.xcassets */,
@@ -264,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87FEEEA18B0575300E53BD7 /* SCAppDelegate.m in Sources */,
+				8568BEA31957C7EB00DFFF4F /* PanScrollImageView.m in Sources */,
 				A87FEEE618B0575300E53BD7 /* main.m in Sources */,
 				A87FEF1418B06A5300E53BD7 /* SCImagePanScrollBarView.m in Sources */,
 				A87FEF0F18B057B400E53BD7 /* SCRootViewController.m in Sources */,
@@ -470,6 +476,7 @@
 				A87FEF0418B0575300E53BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A87FEF0518B0575300E53BD7 /* Build configuration list for PBXNativeTarget "SubjectiveCImagePanTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				A87FEF0718B0575300E53BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
